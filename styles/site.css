@@ -4,13 +4,17 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
+body, h1, h2, h3, h4, h5, h6, p, figure, blockquote, ul, ol, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #000000;
   color: #ffffff;
-  font-family: 'Fira Code', sans-serif;
+  font-family: 'Figtree', sans-serif;
   font-weight: normal;
-  margin: 0;
-  padding: 16px;
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -25,31 +29,41 @@ a:hover {
   text-decoration: underline;
 }
 
-h1 {
-  font-size: 4.625em;
-  margin: 0 0 8px 0;
-  padding: 0;
-}
-
-h1,
-h2,
-h3 {
-  font-weight: 300;
-}
-
 hr {
+  color: #3DB3F4;
   margin: 0;
   padding: 0;
 }
 
 #content {
-  position: absolute;
   bottom: 0;
+  margin: 24px;
+  position: absolute;
 }
 
-.subtitle {
+#header {
+  font-size: 4.625em;
+  margin: 0 0 0 -5px;
+  padding: 0;
+}
+
+.link {
+  font-size: 1.2em;
+  margin: 4px 0;
+  padding: 0;
+}
+
+#links {
+  margin: 16px 0 0 0;
+}
+
+#subtitle {
+  font-family: 'Fira Code', sans-serif;
   font-size: 1em;
   font-weight: 100;
-  margin: 0 0 24px 0;
   padding: 0;
+}
+
+#title {
+  margin: 0 0 16px 0;
 }
